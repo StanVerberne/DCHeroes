@@ -1,0 +1,382 @@
+#main-header {
+  background-image: url("../images/superhero-odd1-background.jpg");
+  height: 100px;
+  padding: 30px;
+  width: 1440px;
+  position: relative;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#tagline {
+  float: left;
+  margin-left: 10px;
+  font-family: anudawitalic;
+  font-size: 40px;
+}
+
+#main-logo {
+  float: left;
+}
+
+#tagline a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-menu {
+  background-color: grey;
+  height: 535px;
+  width: 300px;
+  font-family: rockwell;
+  font-size: 10px;
+  color: white;
+  float: left;
+}
+
+#main-information {
+  background-color: white;
+  float: left;
+  width: 400px;
+  height: 535px;
+  overflow-y: scroll;
+}
+
+#main-rating {
+  background-color: #909194;
+  float: left;
+  width: 800px;
+  height: 535px;
+  overflow-y: scroll;
+}
+
+#main-container {
+  background-color: white;
+  height: 535px;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+#main-teams {
+  font-family: anudawitalic;
+  font-size: 26px;
+  padding-left: 37px;
+  position: relative;
+  margin-top: 30px;
+  color: blue;
+}
+
+#superheroes-1 {
+  width: 370px;
+  height: 230px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+  background-size: cover;
+}
+
+#Category-teams a {
+  list-style-type: none;
+  font-family: rockwell;
+  font-size: 22px;
+  color: white;
+  float: left;
+}
+
+#Category-teams {
+  color: white;
+  margin-left: 40px;
+}
+
+#Category-teams:hover {
+  color: blue;
+}
+
+#heroImage img {
+  width: 150px;
+  height: 230px;
+  background-size: cover;
+  float: left;
+}
+
+#heroName-one {
+  font-size: 16px;
+  color: white;
+  font-family: anudawitalic;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+  position: relative;
+}
+
+#Description {
+  font-size: 24px;
+  font-family: anudawitalic;
+  color: black;
+  position: relative;
+  top: -230px;
+  padding: 50px;
+}
+
+#Powers {
+  font-size: 24px;
+  font-family: anudawitalic;
+  color: black;
+  position: relative;
+  top: -400px;
+  padding: 50px;
+}
+
+#heroPower {
+  font-size: 20px;
+  font-family: rockwell;
+  color: black;
+  position: relative;
+  top: -495px;
+  padding: 54px;
+}
+
+#heroDescription {
+  font-size: 20px;
+  font-family: rockwell;
+  color: black;
+  position: relative;
+  top: -325px;
+  padding: 54px;
+}
+
+#rateHero {
+  font-size: 24px;
+  font-family: anudawitalic;
+  color: black;
+  position: relative;
+  top: -570px;
+  padding: 50px;
+}
+
+#rateReview {
+  font-size: 24px;
+  font-family: anudawitalic;
+  color: black;
+  position: relative;
+  left: -395px;
+  top: -560px;
+  padding: 50px;
+}
+
+#myMessage {
+  width: 400px;
+  height: 200px;
+  top: -600px;
+  left: 50px;
+  position: relative;
+}
+
+#heroLittleDescription {
+  font-size: 15px;
+  color: white;
+  font-family: rockwell;
+  padding-left: 20px;
+  padding-top: 15px;
+  float: left;
+  position: relative;
+  left: 140px;
+  top: 25px;
+}
+
+#heroLittleDescription1 {
+  font-size: 14px;
+  font-family: rockwell;
+  left: 10px;
+  top: 100px;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+#Info-button a {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  background-color: #598de0;
+  border-radius: 10px;
+  float: left;
+  left: 160px;
+  position: absolute;
+  top: 185px;
+  font-family: anudawitalic;
+}
+
+#Info-button a:hover {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  background-color: orange;
+  border-radius: 10px;
+  float: left;
+  left: 160px;
+  position: absolute;
+  top: 185px;
+  font-family: anudawitalic;
+  transform: scale(1.1);
+}
+
+#teamImage img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+@font-face {
+  font-family: 'anudawitalic';
+  src: url('../fonts/anudi-webfont.woff2') format('woff2'), url('../fonts/anudi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#superheroes-1:nth-child(odd) {
+  background-image: url('../images/superhero-even-background.jpg');
+}
+
+#superheroes-1:nth-child(even) {
+  background-image: url('../images/superhero-odd2-background.jpg');
+}
+
+#heroImage-Rating img {
+  width: 764px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+  padding: auto;
+}
+
+#select-hero {
+  color: black;
+  padding: 100px;
+  font-size: 30px;
+  text-align: center;
+  font-family: anudawitalic;
+}
+
+#superhero-Image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  left: 290px;
+  top: -150px;
+  margin: 10px;
+}
+
+#heroName-two {
+  font-size: 40px;
+  color: white;
+  font-family: rockwell;
+  position: relative;
+  margin: 0 auto;
+  top: -160px;
+  text-align: center;
+}
+
+#divSubmit input {
+  font-family: anudawitalic;
+  color: white;
+  padding: 20px;
+  background-color: black;
+  border-radius: 50px;
+  border: 5px solid black;
+  top: -590px;
+  left: 40px;
+  position: relative;
+}
+
+form.frmRate {
+  margin: 10px auto;
+}
+
+.rate {
+  float: left;
+  position: relative;
+  top: -600px;
+  padding-left: 46px;
+}
+
+/* Hide radio */
+
+.rate>input[type='radio'] {
+  display: none;
+  position: relative;
+}
+
+/* Order correctly by floating highest to the right */
+
+.rate>label.lblRating {
+  float: right;
+}
+
+/* The star of the show */
+
+.rate>label.lblRating:before {
+  display: inline-block;
+  font-size: 60px;
+  padding: 5px;
+  margin: 0;
+  cursor: pointer;
+  font-family: FontAwesome;
+  content: "\f005 ";
+  /* full star */
+}
+
+/* Zero stars rating */
+
+.rate>label.lblRating:last-child:before {
+  content: "\f006 ";
+  /* empty star outline */
+}
+
+/* Half star trick */
+
+.rate label.half:before {
+  content: "\f089 ";
+  /* half star no outline */
+  position: absolute;
+  padding-right: 0;
+}
+
+/* Click + hover color */
+
+input:checked~label.lblRating, label.lblRating:hover, label.lblRating:hover~label {
+  color: #ffd900;
+}
+
+/* Hover highlights */
+
+input:checked+label.lblRating:hover, input:checked~label.lblRating:hover,
+/* highlight current and previous stars */
+
+input:checked~label.lblRating:hover~label.lblRating,
+/* highlight previous selected stars for new rating */
+
+label.lblRating:hover~input:checked~label.lblRating
+/* highlight previous selected stars */
+
+  {
+  color: #f0cc00;
+}
+
+.reviewTable {
+  color: red;
+  position: relative;
+  top: -580px;
+  left: 50px;
+  font-family: anudawitalic;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
